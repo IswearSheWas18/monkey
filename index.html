@@ -1,0 +1,235 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script>
+var nombre, anchonombre, Flake, Mice; 
+var asunto; 
+var email, dota, LoL, Meow, Miauw;
+var Cats2, MeeAuch; 
+var a1, a2, a3, a4, a5;   
+var telefono, cdimp, monky, mew; 
+var mundus;
+function NameTag(){
+nombre=document.getElementById("NTag").value;
+nombre=nombre.toUpperCase();
+document.getElementById("NTag").value=nombre;
+anchonombre=nombre.length;
+for(Flake=0;Flake<=anchonombre-1;Flake++){
+Mice=nombre.charAt(Flake);
+if(((Mice>='A')&&(Mice<='Z'))||(Mice==" ")){
+}
+else{
+alert("Caracteres No Validos");
+}
+}
+}
+
+
+function Aurum(){
+email=document.getElementById("HeMan").value;
+dota=email.charAt(0);
+LoL=email.indexOf("@");
+Meow=email.lastIndexOf("@");
+Miauw=email.indexOf(".");
+if((((dota>=0)||(dota<=9))||((LoL!=Meow)||(Miauw==-1)))||(LoL==-1)){
+alert("El E-Mail Tiene un error");
+}
+else{
+}
+}	
+
+function Namba(){
+telefono=document.getElementById("Gatito").value;
+cdimp=telefono.length;
+for(monkey=0;monky<=cdimp-1;monkey++){
+mew=telefono.charAt(monky);
+if(((mew>=0)&&(mew<=9))||((mew==' ')||(mew=='-'))){
+}
+alert("Caracteres Invalidos");
+break;
+}
+}
+
+	
+function Right(){
+asunto=document.getElementById("Hell").value;
+asunto=asunto.toUpperCase();
+document.getElementById("Hell").value=asunto;
+}
+
+
+function Migit() {
+Cats2=document.getElementById("Hats").value;
+MeeAuch=document.getElementById("Limit").value;
+if(Cats2==MeeAuch){
+}
+else{
+alert("Los valores de seguridad no coinciden");
+}
+}
+function limpiar(){
+}
+function enviar(){
+a1=document.getElementById("NTag").value;
+a2=document.getElementById("Hell").value;
+a3=document.getElementById("HeMan").value;
+a4=document.getElementById("Limit").value;
+a5=document.getElementById("Gatito").value;
+if((a1=="")||(a2=="")||(a3=="")||(a4=="")||(a5=="")){
+alert("Rebice Bien Sus Datos");
+}
+else{
+alert("Enviado");
+document.getElementById("NTag").value="";
+document.getElementById("Hell").value="";
+document.getElementById("HeMan").value="";
+document.getElementById("Limit").value="";
+document.getElementById("Gatito").value="";
+}
+}
+</script>
+
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1> Anime FNB </h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Quienes Somos</a></li>
+            <li><a href="#page3">Servicios</a></li>
+			<li><a href="#page4">Equipo</a></li>
+            <li><a href="#page5">Contactanos</a></li><br>
+         <center> <img src="corpse.jpg" width="68%" height="30%"></center>
+        </ul>		
+	</div>	
+	<div data-role="footer">
+		<h4>ING Armando Flores</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Quienes Somos</h1>
+	</div>
+	<div data-role="content"><font size="+2"><B>Info Sobre Nuestra Pagina:</B></font><br><br>	
+		Somos Un equipo que trabaja en brindarle informacion reseñas de algunos series(en especial anime) ú otra cosa que nos pidan por lo regular es un pagina para consultar y hay de muchas categorias. <br><br>
+        <font size="+2"><b>Gore:</b></font><br><img src="gantz.jpg" width="60%" height="55%"><br>Que es Gore.Gore es un genero de serie por lo normal esta en la categoria seinen que es para audencia mayor no es (XXX) sino es violencia lenguaje fuerte y hasta esenas de sangre muy perturbadoras<br>
+        <font size="+2"><b>Sci Fi:</b></font><br><img src="SG.jpg" width="60%" height="55%"><br>Es el serie de tipo ciencia ficion puede suceder cualquier tipo de cosas en este genero pero por lo regular es accion o drama y no hay mucha violencia<br>
+        <font size="+2"><b>Slice of Life:</b></font><img src="AND.jpg" width="60%" height="55%"><br>Slice of life es uno de los generos mas normales que podra haber en este genero es acciones o eventos que podran ser reales de una vida típica de una persona pero normalmente en estos tipos de generos hay romance y drama.<br>
+        <font size="+2"><b>Comedey:</b></font><img src="Cats.jpg" width="60%" height="55%"><br>En este genero hay de todo violencia lenguaje explicita y no siempre aveses es normal slice of life drama, siempre es bueno estos tipos de generos<br>
+        <font size="+2"><b>Shoujo:</b></font><img src="sil.jpg" width="60%" height="55%"><br>Este genero es para audencia Femenina, es de romance este genero y tipo "Slice of Life" pero de chicas estos series pueden ser para todo publico pero simepre son cortos no pasan de los 24 capitulos son buenos pero como no tiene  historia fija no duran.Pero vale la pena ver estos tipos de Series<br>
+        		
+	</div>
+	<div data-role="footer">
+		<h4> Anime FNB </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Servicios (fanservice Etc)</h1>
+	</div>
+	<div data-role="content">
+    <font size="+2"><b>Servicios, Cosas, Productos, Intros y Reseñas; </b></font><br><br>	
+		En este parte Ponemos algunos series, para audencia les damos una pequeña reseña y hasta un link para poder consultar esa serie,verla etc hasta aveses descargar..Legalmente Y vendemos productos mas abajito :)<br><br>
+        <font size="+2">Series:</font><br><br>
+         <br><center>
+           <img src="ZOE.jpg" width="60%" height="55%">
+         </center><b>Zone Of The Enders</b>:    Conocido por su acronimo Z.O.E. , es una franquicia creada por Hideo Kojima, Adquirida por el distribuidor de videojuegos Konami, y expandida por los estudios de animacion Sunrise.<br><br>
+         <br><center>
+           <img src="sao.jpg" width="60%" height="55%">
+         </center><b>Sword Art Online</b>:     es una serie de novelas ligeras escritas por Reki Kawahara e ilustradas por Abec; a partir de estas se han creado tres adaptaciones de manga y un anime.<br><br><center><iframe width="60%" height="50%" src="https://www.youtube.com/embed/JTxJ0ONXMms" frameborder="0" allowfullscreen></iframe></center><br><br>
+         <br><center>
+           <img src="SNK.jpg" width="60%" height="55%">
+         </center><b>shingeki no kyojin</b>: es una serie de manga escrita e ilustrada por Hajime Izayama. La historia gira en torno a Eren Jaeger, su hermana adoptiva Mikasa Ackerman y su mejor amigo Armin Arlert. En este mundo, la población humana vive dentro de ciudades rodeadas de enormes muros para protegerse de la aparición de seres gigantescos que devoran personas, los titanes.<br><br><center<iframe width="60%" height="50%" src="https://www.youtube.com/embed/XMXgHfHxKVM" frameborder="0" allowfullscreen></iframe></center><br>
+         <br><center><br>
+           <img src="ANE.jpg" width="60%" height="55%">
+         </center><b>Ao no Exorcist</b>:, es un manga escrito e ilustrado por la autora japonesa Kazue Kato. El manga ha sido publicado en la revista Jump Square, la cual pertenece a la editorial japonesa Shūeisha desde el 2009<br><br><center><iframe width="60%" height="50%" src="https://www.youtube.com/embed/hEO8CH4grg8" frameborder="0" allowfullscreen></iframe></center><br><br>
+       
+        <font size="+2">Articulos (Ropa):</font><br><br>
+        <font size="+1"><b>DmC Jacket:</b></font><br>
+    <img src="dmc.JPG" width="40%" height="45%"><BR>
+    Precio  $1,600.00 <br><br>
+    <font size="+1"><b>kirito type Jacket:</b></font><br>
+    <img src="Krt.jpg" width="40%" height="45%"><br>
+    Precio $1,600.00 <br><br>
+    
+    
+    
+    
+    
+    
+     </div>
+	<div data-role="footer">
+		<h4>Anime FNB</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Equipo (Equipo FNB)</h1>
+	</div>
+	<div data-role="content">
+		<font size="+2"><b>Programador</b></font><br><br>	
+        <font size="+1">Flores Ramos Armando</font><br><img src="Me.jpg" width="40%" height="30%"><br><br>Edad:16<br>Adicciones:Virility,Lol,GC,DmC,<br>Tipo De Sangre: O+<br>Sexo:Hombre<br>Hobbies: Dibujar,Esuchar Musica(Casi de todo) Jugar, Ocio, y Nadar<br>Sueños: Sacar un 6Pack,Ser millonario,Ser una Persona de clase
+        	
+	</div>
+	<div data-role="footer">
+		<h4>Anime FNB</h4>
+        
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>Contactos</h1>
+	</div>
+	<div data-role="content">	
+		 <table width="0" border="0">
+          <tr>
+            <td><label for="textinput">Nombre:</label></td>
+            <td>
+              
+              <input type="text" name="NTag" id="NTag" value="" onBlur="NameTag()" />
+           </td>
+          </tr>
+          <tr>
+            <td><label for="textinput">E-mail:</label></td>
+            <td> <input type="text" name="HeMan" id="HeMan" value="" onBlur="Aurum()" /></td>
+          </tr>
+          <tr>
+            <td><label for="textinput">Teléfono:</label></td>
+            <td> <input type="text" name="Gatito" id="Gatito" value="" onBlur="Namba()" /></td>
+          </tr>
+          <tr>
+            <td> <label for="textarea">Asunto:</label></td>
+            <td>
+           <textarea cols="40" rows="8" name="Hell" id="Hell" onBlur="Right()" ></textarea>
+          </td>
+          </tr>
+          <tr>
+            <td><label for="textinput">Seguridad:</label></td>
+            <td> <input type="text" name="Hats" id="Hats" value="Cats" disabled="disabled" /></td>
+            <td> <input type="text" name="Limit" id="Limit" value="" onBlur="Migit()" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button onClick="enviar()">Enviar</button></td>
+            
+          </tr>
+        </table>		
+	</div>
+	<div data-role="footer">
+		<h4> Anime FNB</h4>
+	</div>
+</div>
+
+</body>
+</html>
